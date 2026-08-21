@@ -5,6 +5,8 @@ edition = "2021"
 publish = false
 description = "Soroban contract for Stellar rotating-savings groups (ROSCA-style) with referral/affiliate rewards"
 license = "MIT"
+author = "afreumtoolkits"
+contributors = ["suruj404", "afreum"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]

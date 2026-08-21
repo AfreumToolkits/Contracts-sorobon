@@ -1,6 +1,7 @@
 [workspace]
 resolver = "2"
 members = ["contracts/stellar_groups"]
+author = "afreumtoolkits"
 
 [profile.release]
 opt-level = "z"
