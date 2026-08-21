@@ -1,0 +1,20 @@
+[package]
+name = "stellar-groups-contract"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Soroban contract for Stellar rotating-savings groups (ROSCA-style) with referral/affiliate rewards"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = "22.0.0"
+
+[dev-dependencies]
+soroban-sdk = { version = "22", features = ["testutils"] }
+
+[features]
+testutils = ["soroban-sdk/testutils"]
