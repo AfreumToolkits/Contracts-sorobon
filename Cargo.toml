@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["contracts/stellar_groups"]
+members = ["contracts/stellar_groups", "contracts/limit_order_book"]
 author = "afreumtoolkits"
 
 [profile.release]

@@ -1,12 +1,11 @@
 [package]
-name = "stellar-groups-contract"
+name = "limit-order-book-contract"
 version = "0.1.0"
 edition = "2021"
 publish = false
-description = "Soroban contract for Stellar rotating-savings groups (ROSCA-style) with referral/affiliate rewards"
+description = "High-performance Limit Order Book for Soroban with gas-optimized matching engine"
 license = "MIT"
 author = "afreumtoolkits"
-contributors = ["suruj404", "afreum"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
